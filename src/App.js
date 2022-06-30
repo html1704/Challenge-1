@@ -31,9 +31,6 @@ export default function App() {
       }
     },
 
-    // The second argument to useEffect tells React when to re-run the effect
-    // Use an empty array to specify "only run on first render"
-    // This works because signing into NEAR Wallet reloads the page
     []
   )
 
@@ -41,7 +38,7 @@ export default function App() {
   if (!window.walletConnection.isSignedIn()) {
     return (
       <div style={{ width: '100%', height: 'calc(100vh - 45px)', display: 'flex', flexDirection: 'column', justifyContent: 'center',alignItems: 'center'}}>
-        <img style={{borderRadius:'8px 8px 0 0'}} src="https://scontent.fhan4-3.fna.fbcdn.net/v/t1.15752-9/279164185_1198347830992390_5079704922099714452_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=JRhbNXyodvcAX-mjO0T&_nc_ht=scontent.fhan4-3.fna&oh=03_AVI6Xxw1GUzMEQrnEltEMl_TPGiT-Dk_NasWkt_vXZlEUg&oe=62B9A415" />
+        <img style={{borderRadius:'8px 8px 0 0'}} src="https://assets-global.website-files.com/5f15b505dd58c1501a49d387/61a88f3d1d6f3b5b83479552_Near%20Protocol%203D%20coin.png" />
         <button style={{ width:'700px', borderRadius: '0 0 8px 8px' }} onClick={login}>Sign in</button>
       </div>
     )
