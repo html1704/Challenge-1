@@ -39,7 +39,7 @@ export default function App() {
     return (
       <div style={{ width: '100%', height: 'calc(100vh - 45px)', display: 'flex', flexDirection: 'column', justifyContent: 'center',alignItems: 'center'}}>
         <img style={{borderRadius:'8px 8px 0 0'}} src="https://s3-us-west-1.amazonaws.com/compliance-ico-af-us-west-1/production/token_profiles/logos/original/9d5/c43/cc-/9d5c43cc-e232-4267-aa8a-8c654a55db2d-1608222929-b90bbe4696613e2faeb17d48ac3aa7ba6a83674a.png" />
-        <button style={{ width:'700px', borderRadius: '0 0 8px 8px' }} onClick={login}>Sign in</button>
+        <button style={{ width:'700px', borderRadius: '0 0 8px 8px', marginTop: '150px'}} onClick={login}>Sign in</button>
       </div>
     )
   }
